@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>ReWiki</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.css">
+    <script src="https://cdn.jsdelivr.net/simplemde/latest/simplemde.min.js"></script>
+    <style>
+        div#status {
+            width: 100%;
+            height: 40px;
+            display: none;
+            background-color: green;
+            padding: 10px;
+        }
+        div#status p {
+            color: white;
+        }
+    </style>
+    <script src="/static/rewiki.js"></script>
+</head>
+<body>
+<div id="status"></div>
+<h1>Editor</h1>
+<form id="editorform" method="POST">
+    <label for="title">Title: </label>
+    <input id="title" value="" />
+<textarea id="editor">
+
+</textarea>
+    <button id="editorsubmit" type="button" value="Submit" onclick="submitEditor()">Submit</button>
+</form>
+</body>
+
+</html>

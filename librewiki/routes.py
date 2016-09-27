@@ -34,7 +34,7 @@ def sanitize_path(path):
 
 @app.route('/')
 def index():
-    fd = open(os.path.join(os.path.dirname(__file__), "../templates/index.html"))
+    fd = open(os.path.join(os.path.dirname(__file__), "../static/index.html"))
     content = fd.read()
     fd.close()
     return content
