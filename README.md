@@ -1,4 +1,7 @@
+[![CircleCI](https://circleci.com/gh/annttu/rewiki.svg?style=svg)](https://circleci.com/gh/annttu/rewiki)
+
 # ReWiki
+
 
 Proof of concept git based wiki
 
