@@ -1,0 +1,10 @@
+version: 2.1
+
+jobs:
+  build:
+    machine: true
+    steps:
+      - checkout
+      # Build image
+      - run: docker build -t annttu/rewiki:$CIRCLE_BRANCH .
+
