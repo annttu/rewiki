@@ -7,4 +7,4 @@ from librewiki import routes
 
 
 if __name__ == "__main__":
-    app.run('localhost', 8080)
+    app.run('0.0.0.0', 8080)
